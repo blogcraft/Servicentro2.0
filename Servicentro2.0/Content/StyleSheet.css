@@ -1,0 +1,18 @@
+﻿body {
+	padding-top: 50px;
+}
+
+.navbar-brand > img {
+    max-height: 1em;
+}
+
+.fondo {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../img/10906738_10155087632695525_1281880861_o.jpg');
+}
+
+.fondoInicio {
+    position:fixed;
+    bottom:0;
+}
