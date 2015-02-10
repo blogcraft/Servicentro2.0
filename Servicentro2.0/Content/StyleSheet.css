@@ -1,5 +1,10 @@
-﻿body {
-	padding-top: 50px;
+﻿html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    padding-top: 50px;
 }
 
 .navbar-brand > img {
@@ -10,9 +15,35 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url('../img/10906738_10155087632695525_1281880861_o.jpg');
+    min-height: 100%;
+    background-position-x: right;
+    background-position-y: top;
 }
 
-.fondoInicio {
-    position:fixed;
-    bottom:0;
+.fondoLogo {
+    /*position:fixed;
+    bottom:0;*/
+}
+
+menu-panel {
+    height: 100%;
+}
+
+.servicentro-font {
+    font-family: 'Magneto';
+}
+
+.texto-portada {
+    color: white;
+    margin: 0;
+    padding: 51px;
+    bottom: 0;
+    position: absolute;
+}
+
+@font-face {
+    font-family: 'Magneto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Magneto'), local('Magneto'), url('../fonts/magnetob.svg') format('svg'),url('../fonts/magnetob.woff') format('woff'), url('../fonts/magnetob.ttf') format('truetype');
 }
