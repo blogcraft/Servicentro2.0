@@ -1,5 +1,5 @@
 ﻿(function () {
-    var app = angular.module("servicentro", []);
+    var app = angular.module("servicentro", ["ngTouch"]);
 
     app.controller("panelController", function () {
         this.tab = 0;
