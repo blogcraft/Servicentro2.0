@@ -1,17 +1,16 @@
-﻿<div class="container" ng-show="panel.isSelected(1)">
-    <div class="row well well-sm">
-        <div class="col-sm-6">
-            <h2>Sobre nosotros</h2>
-            <p>Somos un punto de encuentro en la ruta que recorren los jóvenes Laicos y Cristianos. Un lugar lleno de luces, música y guitarras en que se detienen, comparten, celebran y recargan sus energías para continuar el viaje, llevando en la maleta un mensaje… que a veces pasará desapercibido y otras será más explícito, pero que siempre los acompañará en la ruta, vengan de donde vengan y vayan donde vayan. Somos Católicos haciendo Rock.</p>
-            <p class='lead'>Somos... Servicentro!</p>
+﻿<div class="container-fluid" ng-show="panel.isSelected(1)" ng-class="{ 'fondo fondoQuienesS padding-fondo':panel.isSelected(1)}">
+    <div class=" row">
+        <div class="col-xs-push-1 col-xs-10 text-center">
+            <blockquote class="texto-sobre-imagen">"Somos un punto de encuentro en la ruta que recorren los jóvenes Laicos y Cristianos."</blockquote>
+            <p class="texto-sobre-imagen">Un lugar lleno de luces, música y guitarras en que se detienen, comparten, celebran y recargan sus energías para continuar el viaje, llevando en la maleta un mensaje… que a veces pasará desapercibido y otras será más explícito, pero que siempre los acompañará en la ruta, vengan de donde vengan y vayan donde vayan.</p>
         </div>
-        <div class="col-sm-5 col-sm-offset-1 hidden-xs">
+        <!--<div class="col-sm-5 col-sm-offset-1 hidden-xs">
             <iframe class="embed-responsive-item" width="100%" height="250" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/184590631&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
-        </div>
+        </div>-->
     </div>
 </div>
 
-<div ng-show="panel.isSelected(0)" ng-class="{ fondo:panel.isSelected(0)}">
+<div ng-show="panel.isSelected(0)" ng-class="{ 'fondo fondoInicio':panel.isSelected(0)}">
     <!--<img class="img-responsive fondoLogo" src="img/customLogo.png" />-->
-    <h1 class="servicentro-font texto-portada">Catolicos Haciendo <span>ROCK!</span> </h1>
+    <h1 class="servicentro-font texto-portada texto-sobre-imagen">Catolicos Haciendo <span>ROCK!</span> </h1>
 </div>

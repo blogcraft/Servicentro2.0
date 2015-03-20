@@ -14,15 +14,17 @@ body {
 .fondo {
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url('../img/10906738_10155087632695525_1281880861_o.jpg');
     min-height: 100%;
     background-position-x: right;
     background-position-y: top;
 }
 
-.fondoLogo {
-    /*position:fixed;
-    bottom:0;*/
+.fondoInicio {
+    background-image: url('../img/Fondo0.jpg');
+}
+
+.fondoQuienesS {
+    background-image: url('../img/Fondo1.jpg');
 }
 
 menu-panel {
@@ -34,11 +36,30 @@ menu-panel {
 }
 
 .texto-portada {
-    color: white;
     margin: 0;
     padding: 51px;
     bottom: 0;
     position: absolute;
+}
+
+.padding-fondo {
+    padding-top: 120px;
+}
+
+.texto-sobre-imagen {
+    color: white;
+    text-shadow: gray 1px 1px 2px;
+}
+
+    .texto-sobre-imagen p {
+        font-size: 3vw;
+    }
+
+blockquote {
+    border: none;
+    font-style: italic;
+    padding-top: 0;
+    font-size: 4vw;
 }
 
 @font-face {
