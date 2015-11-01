@@ -1,0 +1,12 @@
+﻿<div class="galeria top-buffer" ng-controller="albumsController as albums">
+    <div ng-repeat="album in albums.albums">
+        <h4 class="row">{{album.ano}} - {{album.nombre}} - {{album.ciudad}}, {{album.pais}}</h4>
+        <ul albumid="{{album.id}}" class="row baguetteBox{{album.id}}">
+            <li ng-repeat="foto in album.fotos" class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                <a href="img/galerias/{{album.ano}}{{album.nombre}}/{{album.ano}}-{{album.nombre}}-{{foto}}.jpg" data-caption="{{album.ano}} - {{album.nombre}} - {{album.ciudad}}, {{album.pais}}">
+                    <img class="img-responsive" ng-src="img/galerias/{{album.ano}}{{album.nombre}}/{{album.ano}}-{{album.nombre}}-{{foto}}.jpg">
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>

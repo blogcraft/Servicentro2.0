@@ -2,38 +2,29 @@
 <html lang="es" ng-app="servicentro">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="/">
+
     <title>Servicentro</title>
+
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
-    <!--<link href="Content/bootstrap-theme.min.css" rel="stylesheet" />-->
-    <!--<link href="Content/navbar-fixed-top.css" rel="stylesheet" />-->
     <link href="Content/font-awesome.min.css" rel="stylesheet" />
     <link href="Content/StyleSheet.css" rel="stylesheet" />
     <link href="Content/baguetteBox.css" rel="stylesheet" />
+
     <script src="Scripts/angular.min.js"></script>
     <script src="Scripts/angular-touch.min.js"></script>
+    <script src="Scripts/angular-route.min.js"></script>
     <script src="Scripts/Controllers/app.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!--<script>
-        window.onload = function () {
-            baguetteBox.run('.gallery', {
-                captions: true, // true|false - Display image captions
-                buttons: 'auto', // 'auto'|true|false - Display buttons
-                async: true, // true|false - Load files asynchronously
-                preload: 2, // [number] - How many files should be preloaded from current image
-                animation: 'slideIn'
-            });
-        };
-    </script>-->
 </head>
-<body ng-controller="panelController as panel">
+<body>
     <menu-sitio></menu-sitio>
-    <menu-panel></menu-panel>
+    <div ng-view style="height:inherit;"></div>
     <footer-sitio></footer-sitio>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="Scripts/bootstrap.min.js"></script>
     <script src="Scripts/baguetteBox.js"></script>
-    <script src="/Scripts/lyrics.js"></script>
+    <script src="Scripts/lyrics.js"></script>
 </body>
 </html>

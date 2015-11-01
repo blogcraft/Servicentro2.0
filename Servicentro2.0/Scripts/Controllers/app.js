@@ -1,5 +1,30 @@
 ﻿(function () {
-    var app = angular.module("servicentro", ["ngTouch"]);
+    var app = angular.module("servicentro", ["ngTouch", "ngRoute"]);
+
+    app.config(function ($routeProvider, $locationProvider) {
+        $routeProvider
+            .when('/', {
+                templateUrl: 'home.html'
+            })
+            .when('/conocenos', {
+                templateUrl: 'quienes-somos.html'
+            })
+            .when('/musica', {
+                templateUrl: 'musica.html'
+            })
+            .when('/letra', {
+                templateUrl: 'letra.html'
+            })
+            .when('/galeria', {
+                templateUrl: 'galeria.html',
+                controller: 'albumsController'
+            })
+            .when('/contacto', {
+                templateUrl: 'contacto.html'
+            });
+
+        $locationProvider.html5Mode(true);
+    });
 
     app.controller("panelController", function () {
         this.tab = 0;
@@ -43,7 +68,7 @@
             restrict: "AC",
             link: function ($scope, $elm, $attrs) {
                 $timeout(function () {
-                    baguetteBox.run('.baguetteBox'+$scope.$eval($attrs.albumid), {
+                    baguetteBox.run('.baguetteBox' + $scope.$eval($attrs.albumid), {
                         captions: true, // true|false - Display image captions
                         buttons: 'auto', // 'auto'|true|false - Display buttons
                         async: true, // true|false - Load files asynchronously

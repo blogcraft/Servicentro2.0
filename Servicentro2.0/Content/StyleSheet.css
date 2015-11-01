@@ -11,6 +11,10 @@ body {
     max-height: 1em;
 }
 
+.top-buffer {
+    margin-top:20px;
+}
+
 .fondo {
     background-repeat: no-repeat;
     background-size: cover;
@@ -59,7 +63,7 @@ blockquote {
     border: none;
     font-style: italic;
     padding-top: 0;
-    font-size: 4vw;
+    font-size: 3vw;
 }
 
 .galeria ul {

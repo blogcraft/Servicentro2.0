@@ -1,7 +1,7 @@
 ﻿<div class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
         <div class='navbar-header'>
-            <a href="#" ng-click="panel.selectTab(0)" class="navbar-brand servicentro-font">
+            <a data-toggle="collapse" data-target=".navbar-nav" href="/" class="navbar-brand servicentro-font">
                 <!--<img alt="Servicentro" src="img/customLogo.png" />-->Servicentro
             </a>
             <button class='navbar-toggle collapsed' data-toggle='collapse' data-target='.navbar-nav' type='button'>
@@ -12,30 +12,32 @@
             </button>
         </div>
         <ul class="nav navbar-nav navbar-right collapse navbar-collapse">
-            <li ng-class="{ active:panel.isSelected(1)}">
-                <a href="#" ng-click="panel.selectTab(1)"><i class="fa fa-question"></i> conócenos</a>
-            </li>
-            <li ng-class="{ active:panel.isSelected(2)}">
-                <a href="#" ng-click="panel.selectTab(2)"><i class="fa fa-music"></i> música</a>
-            </li>
-            <li ng-class="{ active:panel.isSelected(3)}">
-                <a href="#" ng-click="panel.selectTab(3)"><i class="fa fa-book"></i> letras</a>
-            </li>
-            <li ng-class="{ active:panel.isSelected(4)}">
-                <a href="#" ng-click="panel.selectTab(4)"><i class="fa fa-picture-o"></i> galeria</a>
+            <li>
+                <a data-toggle="collapse" data-target=".navbar-nav" href="/conocenos"><i class="fa fa-question"></i> conócenos</a>
             </li>
             <li>
-                <a href="#" data-toggle='dropdown'><i class="fa fa-group"></i> redes sociales<span class='caret'></span></a>
+                <a data-toggle="collapse" data-target=".navbar-nav" href="/musica"><i class="fa fa-music"></i> música</a>
+            </li>
+            <li>
+                <a data-toggle="collapse" data-target=".navbar-nav" href="/letra"><i class="fa fa-book"></i> letra</a>
+            </li>
+            <li>
+                <a data-toggle="collapse" data-target=".navbar-nav" href="/galeria"><i class="fa fa-picture-o"></i> galeria</a>
+            </li>
+            <li>
+                <a data-toggle='dropdown'><i class="fa fa-group"></i> redes sociales<span class='caret'></span></a>
                 <ul class='dropdown-menu'>
                     <li><a href="//facebook.com/Servicentrocl" target="_blank"><i class="fa fa-facebook"></i> facebook</a></li>
                     <li><a href="//youtube.com/channel/UCzh_MtK7xNV14i4THYnUYIQ" target="_blank"><i class="fa fa-youtube"></i> youtube</a></li>
                     <li><a href="//twitter.com/Servicentro_cl" target="_blank"><i class="fa fa-twitter"></i> twitter</a></li>
+                    <li><a href="//plus.google.com/108680490166455718892/posts"><i class="fa fa-google-plus"></i> google+</a></li>
                     <li><a href="//reverbnation.com/servicentro" target="_blank"><i class="glyphicon glyphicon-star"></i> reverbnation</a></li>
                     <li><a href="//soundcloud.com/servicentro" target="_blank"><i class="fa fa-soundcloud"></i> soundcloud</a></li>
                 </ul>
             </li>
-            <li class='divider'></li>
-            <li ng-class="{ active:panel.isSelected(6)}"><a href="#" ng-click="panel.selectTab(6)"><i class="fa fa-envelope"></i> contactanos</a></li>
+            <li>
+                <a data-toggle="collapse" data-target=".navbar-nav" href="/contacto" ><i class="fa fa-envelope"></i> contacto</a>
+            </li>
         </ul>
     </div>
 </div>
