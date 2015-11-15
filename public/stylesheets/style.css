@@ -1,0 +1,88 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    padding-top: 50px;
+}
+
+.navbar-brand > img {
+    max-height: 1em;
+}
+
+.top-buffer {
+    margin-top: 20px;
+}
+
+.bottom-buffer {
+    margin-bottom: 20px;
+}
+
+.fondo {
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+    background-position-x: right;
+    background-position-y: top;
+}
+
+.fondoInicio {
+    background-image: url('../images/Fondo0.jpg');
+}
+
+.fondoQuienesS {
+    background-image: url('../images/Fondo1.jpg');
+}
+
+menu-panel {
+    height: 100%;
+}
+
+.servicentro-font {
+    font-family: 'Magneto';
+}
+
+.texto-portada {
+    margin: 0;
+    padding: 51px;
+    bottom: 0;
+    position: absolute;
+}
+
+.padding-fondo {
+    padding-top: 120px;
+}
+
+.texto-sobre-imagen {
+    color: white;
+    text-shadow: gray 1px 1px 2px;
+}
+
+    .texto-sobre-imagen p {
+        font-size: 3vw;
+    }
+
+blockquote {
+    border: none;
+    font-style: italic;
+    padding-top: 0;
+    font-size: 3vw;
+}
+
+.box {
+    object-fit: cover;
+    height: 100px;
+    width: 100%;
+}
+
+.galeria ul li img {
+    cursor: pointer;
+}
+
+@font-face {
+    font-family: 'Magneto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Magneto'), local('Magneto'), url('../fonts/magnetob.svg') format('svg'),url('../fonts/magnetob.woff') format('woff'), url('../fonts/magnetob.ttf') format('truetype');
+}

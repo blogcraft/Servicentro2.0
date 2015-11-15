@@ -1,0 +1,23 @@
+{
+  "name": "Servicentro",
+  "description": "Pagina Web de Banda Servicentro",
+  "main": "index.html",
+  "authors": [
+    "Gerardo Buenrostro González <blogcraft@gmail.com>"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "font-awesome": "fontawesome#~4.4.0",
+    "jquery": "~2.1.4"
+  }
+}
