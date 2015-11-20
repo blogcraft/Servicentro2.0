@@ -43,6 +43,14 @@ menu-panel {
     font-family: 'Magneto';
 }
 
+.logo {
+  color: rgb(47,43,119)!important;
+}
+
+.logo-rojo{
+  color: rgb(243,41,39);
+}
+
 .texto-portada {
     margin: 0;
     padding: 51px;
