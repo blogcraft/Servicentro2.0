@@ -4,7 +4,6 @@ html {
 
 body {
     height: 100%;
-    padding-top: 50px;
 }
 
 .navbar-brand > img {
@@ -18,7 +17,8 @@ body {
 .bottom-buffer {
     margin-bottom: 20px;
 }
-
+.carousel,.item,.active{height:100%;}
+.carousel-inner{height:100%;}
 .fondo {
     background-repeat: no-repeat;
     background-size: cover;
@@ -28,11 +28,23 @@ body {
 }
 
 .fondoInicio {
-    background-image: url('../images/Fondo0.jpg');
+    background-image: url('../images/fondo.jpg');
 }
 
 .fondoQuienesS {
     background-image: url('../images/Fondo1.jpg');
+}
+
+#musica {
+    background-color: red;
+}
+
+#letra{
+    background-color: blue;
+}
+
+#media{
+    background-color: green;
 }
 
 menu-panel {
@@ -86,6 +98,14 @@ blockquote {
 
 .galeria ul li img {
     cursor: pointer;
+}
+
+@media screen and (orientation: portrait) {
+  img.car { height: 110%; }
+}
+
+@media screen and (orientation: landscape) {
+  img.car { width: 110%; }
 }
 
 @font-face {
