@@ -28,11 +28,23 @@ body {
 }
 
 .fondoInicio {
-    background-image: url('../images/fondo.jpg');
+    background-image: url('../images/Fondo.jpg');
 }
 
 .fondoQuienesS {
-    background-image: url('../images/Fondo1.jpg');
+    background-image: url('../images/Fondo2.jpg');
+}
+
+.fondoMusica {
+  background-image: url('../images/Fondo3.jpg');
+}
+
+.fondoLetra {
+  background-image: url('../images/Fondo4.jpg');
+}
+
+.fondoMedia {
+  background-image: url('../images/Fondo5.jpg');
 }
 
 #musica {
@@ -55,6 +67,30 @@ menu-panel {
     font-family: 'Magneto';
 }
 
+.capture-it-font {
+  font-family: 'CaptureIt';
+}
+
+#letra h4 {
+  font-family: 'CaptureIt'!important;
+  font-weight: normal!important;
+}
+
+.panel-letra {
+  background-color: #372F2C;
+  color: darkgray;
+}
+
+.panel-heading-letra {
+  color: darkgray !important;
+  background-color: #222222 !important;
+  border-color: #000000 !important;
+}
+
+.no-border {
+  border: 0 !important;
+}
+
 .logo {
   color: rgb(47,43,119)!important;
 }
@@ -65,9 +101,12 @@ menu-panel {
 
 .texto-portada {
     margin: 0;
-    padding: 51px;
+    padding: 30px;
     bottom: 0;
     position: absolute;
+    color: #0FADCF !important;
+    font-size: 9.5vw !important;
+    text-shadow: none !important;
 }
 
 .padding-fondo {
@@ -88,6 +127,10 @@ blockquote {
     font-style: italic;
     padding-top: 0;
     font-size: 3vw;
+}
+
+.parrafo-conocenos {
+  font-size: 2vw !important;
 }
 
 .box {
@@ -113,4 +156,11 @@ blockquote {
     font-style: normal;
     font-weight: 400;
     src: local('Magneto'), local('Magneto'), url('../fonts/magnetob.svg') format('svg'),url('../fonts/magnetob.woff') format('woff'), url('../fonts/magnetob.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'CaptureIt';
+    font-style: normal;
+    font-weight: 400;
+    src: local('CaptureIt'), local('CaptureIt'), url('../fonts/captureIt.ttf') format('truetype');
 }
