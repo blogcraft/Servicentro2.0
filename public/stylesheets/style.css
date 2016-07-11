@@ -17,8 +17,7 @@ body {
 .bottom-buffer {
     margin-bottom: 20px;
 }
-.carousel,.item,.active{height:100%;}
-.carousel-inner{height:100%;}
+
 .fondo {
     background-repeat: no-repeat;
     background-size: cover;
@@ -72,8 +71,9 @@ menu-panel {
 }
 
 #letra h4 {
-  font-family: 'CaptureIt'!important;
+  font-family: 'Magneto'!important;
   font-weight: normal!important;
+  text-transform: none;
 }
 
 .panel-letra {
@@ -92,7 +92,7 @@ menu-panel {
 }
 
 .logo {
-  color: rgb(47,43,119)!important;
+  color: #ffffff !important;
 }
 
 .logo-rojo{
@@ -104,7 +104,6 @@ menu-panel {
     padding: 30px;
     bottom: 0;
     position: absolute;
-    color: #0FADCF !important;
     font-size: 9.5vw !important;
     text-shadow: none !important;
 }
@@ -142,6 +141,42 @@ blockquote {
 .galeria ul li img {
     cursor: pointer;
 }
+
+.carousel {
+  height: 44vw;
+  max-height: 90%;
+}
+
+/*.carousel,.item,.active{height:90%;}*/
+.carousel-inner{
+  height:100%;
+  width: 100%;
+  left: 0%;
+}
+
+
+/*.carousel {
+    overflow: hidden;
+}
+.carousel-inner {
+    width: 150%;
+    left: -25%;
+}
+.carousel-inner > .item.next,
+.carousel-inner > .item.active.right {
+    -webkit-transform: translate3d(33%, 0, 0);
+    transform: translate3d(33%, 0, 0);
+}
+.carousel-inner > .item.prev,
+.carousel-inner > .item.active.left {
+    -webkit-transform: translate3d(-33%, 0, 0);
+    transform: translate3d(-33%, 0, 0);
+}
+.carousel-control.left,
+.carousel-control.right {
+    background: rgba(255, 255, 255, 0.3);
+    width: 25%;
+}*/
 
 @media screen and (orientation: portrait) {
   img.car { height: 110%; }
