@@ -70,6 +70,10 @@ menu-panel {
   font-family: 'CaptureIt';
 }
 
+.montserrat-font {
+  font-family: Montserrat
+}
+
 #letra h4 {
   font-family: 'Magneto'!important;
   font-weight: normal!important;
@@ -105,6 +109,15 @@ menu-panel {
     bottom: 0;
     position: absolute;
     font-size: 9.5vw !important;
+    text-shadow: none !important;
+}
+
+.texto-random-portada {
+    margin: 0;
+    padding: 30px;
+    bottom: 30vh;
+    position: absolute;
+    font-size: 3.5vw !important;
     text-shadow: none !important;
 }
 

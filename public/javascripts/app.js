@@ -67,22 +67,22 @@
 
   var albums = [{
     id: 1,
-    nombre: "Encuentrate",
-    descripcion: "Encuéntrate",
-    ano: 2012,
-    mes: 8,
-    ciudad: "Parque Bicentenario",
+    nombre: "Saname",
+    descripcion: "Making of... Sáname",
+    ano: 2015,
+    mes: 12,
+    ciudad: "Santiago",
     pais: "Chile",
-    fotos: ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11"]
+    fotos: ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"]
   }, {
     id: 2,
-    nombre: "Hallel",
-    descripcion: "Hallel",
-    ano: 2014,
-    mes: 9,
-    ciudad: "Franca",
-    pais: "Brasil",
-    fotos: ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17"]
+    nombre: "Encuentro",
+    descripcion: "Encuentro por la Vida",
+    ano: 2015,
+    mes: 12,
+    ciudad: "Santiago",
+    pais: "Chile",
+    fotos: ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"]
   }, {
     id: 3,
     nombre: "HallelTemuco",
@@ -94,23 +94,23 @@
     fotos: ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14"]
   }, {
     id: 4,
-    nombre: "Encuentro",
-    descripcion: "Encuentro por la Vida",
-    ano: 2015,
-    mes: 12,
-    ciudad: "Santiago",
-    pais: "Chile",
-    fotos: ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"]
+    nombre: "Hallel",
+    descripcion: "Hallel",
+    ano: 2014,
+    mes: 9,
+    ciudad: "Franca",
+    pais: "Brasil",
+    fotos: ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17"]
   }, {
     id: 5,
-    nombre: "Saname",
-    descripcion: "Making of... Sáname",
-    ano: 2015,
-    mes: 12,
-    ciudad: "Santiago",
+    nombre: "Encuentrate",
+    descripcion: "Encuéntrate",
+    ano: 2012,
+    mes: 8,
+    ciudad: "Parque Bicentenario",
     pais: "Chile",
-    fotos: ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"]
-  }]
+    fotos: ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11"]
+  } ]
 
   app.controller("albumsController", function() {
     this.albums = albums;
