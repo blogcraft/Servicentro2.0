@@ -1,43 +1,34 @@
-﻿<div class="navbar navbar-default navbar-fixed-top">
-    <div class="container-fluid">
-        <div class='navbar-header'>
-            <a href="/" class="navbar-brand servicentro-font logo">
-                <!--<img alt="Servicentro" src="images/customLogo.png" />-->Servi<span class="logo-rojo">c</span>entro
-            </a>
-            <button class='navbar-toggle collapsed' data-toggle='collapse' data-target='.navbar-nav' type='button'>
-                <span class='sr-only'>menu</span>
-                <span class='icon-bar'></span>
-                <span class='icon-bar'></span>
-                <span class='icon-bar'></span>
-            </button>
-        </div>
-        <ul class="nav navbar-nav navbar-right collapse navbar-collapse">
-            <li>
-                <a data-toggle="collapse" data-target=".navbar-nav" href="/conocenos"><i class="fa fa-question"></i> conócenos</a>
-            </li>
-            <li>
-                <a data-toggle="collapse" data-target=".navbar-nav" href="/musica"><i class="fa fa-music"></i> música</a>
-            </li>
-            <li>
-                <a data-toggle="collapse" data-target=".navbar-nav" href="/letra"><i class="fa fa-book"></i> letra</a>
-            </li>
-            <li>
-                <a data-toggle="collapse" data-target=".navbar-nav" href="/galeria"><i class="fa fa-picture-o"></i> galeria</a>
-            </li>
-            <li>
-                <a data-toggle='dropdown'><i class="fa fa-group"></i> síguenos<span class='caret'></span></a>
-                <ul class='dropdown-menu'>
-                    <li><a href="//facebook.com/Servicentrocl" target="_blank"><i class="fa fa-facebook"></i> facebook</a></li>
-                    <li><a href="//youtube.com/channel/UCzh_MtK7xNV14i4THYnUYIQ" target="_blank"><i class="fa fa-youtube"></i> youtube</a></li>
-                    <li><a href="//twitter.com/Servicentro_cl" target="_blank"><i class="fa fa-twitter"></i> twitter</a></li>
-                    <li><a href="//plus.google.com/108680490166455718892/posts"><i class="fa fa-google-plus"></i> google+</a></li>
-                    <li><a href="//reverbnation.com/servicentro" target="_blank"><i class="glyphicon glyphicon-star"></i> reverbnation</a></li>
-                    <li><a href="//soundcloud.com/servicentro" target="_blank"><i class="fa fa-soundcloud"></i> soundcloud</a></li>
-                </ul>
-            </li>
-            <li>
-                <a data-toggle="collapse" data-target=".navbar-nav" href="/contacto" ><i class="fa fa-envelope"></i> contacto</a>
-            </li>
-        </ul>
+<div class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class='navbar-header'>
+      <a href="#page-top" class="navbar-brand servicentro-font logo" du-smooth-scroll du-scrollspy>
+        <!--<img alt="Servicentro" src="images/customLogo.png" />-->Servi<span class="logo-rojo">c</span>entro
+      </a>
+      <button class='navbar-toggle' data-toggle='collapse' data-target='#menu' type='button'>
+        <span class='sr-only'>menu</span>
+        <span class='icon-bar'></span>
+        <span class='icon-bar'></span>
+        <span class='icon-bar'></span>
+      </button>
     </div>
+    <div id="menu" class="collapse navbar-collapse">
+      <ul class="nav navbar-nav navbar-right" ng-controller="scrollController">
+        <li>
+          <a data-toggle="collapse" href="#conocenos" data-target=".navbar-nav" du-smooth-scroll du-scrollspy>conócenos</a>
+        </li>
+        <li>
+          <a data-toggle="collapse" href="#musica" data-target=".navbar-nav" du-smooth-scroll du-scrollspy>música</a>
+        </li>
+        <li>
+          <a data-toggle="collapse" href="#letra" data-target=".navbar-nav" du-smooth-scroll du-scrollspy>letra</a>
+        </li>
+        <li>
+          <a data-toggle="collapse" href="#media" data-target=".navbar-nav" du-smooth-scroll du-scrollspy>galeria</a>
+        </li>
+        <li>
+          <a data-toggle="collapse" href="#contacto" data-target=".navbar-nav" du-smooth-scroll du-scrollspy>contacto</a>
+        </li>
+      </ul>
+    </div>
+  </div>
 </div>
