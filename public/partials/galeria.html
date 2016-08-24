@@ -10,7 +10,7 @@
                 <div class="panel-body">
                     <div ng-repeat="foto in album.fotos" class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
                         <a href="images/galerias/{{album.ano}}{{album.nombre}}/{{album.ano}}-{{album.nombre}}-{{foto}}.jpg" data-caption="{{album.ano}} - {{album.nombre}} - {{album.ciudad}}, {{album.pais}}">
-                            <amp-img width=527 height=193 layout="responsive" class="img-responsive bottom-buffer box" ng-src="images/galerias/{{album.ano}}{{album.nombre}}/{{album.ano}}-{{album.nombre}}-{{foto}}.jpg"></amp-img>
+                            <img class="img-responsive bottom-buffer box" ng-src="images/galerias/{{album.ano}}{{album.nombre}}/{{album.ano}}-{{album.nombre}}-{{foto}}.jpg">
                         </a>
                     </div>
                 </div>
