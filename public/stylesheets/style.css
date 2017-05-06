@@ -167,6 +167,19 @@ blockquote {
   left: 0%;
 }
 
+.panel {
+    background-color: #222;
+}
+.panel-body {
+    background-color: #222;
+}
+
+.std-font {
+  font-family: 'Magneto'!important;
+  font-weight: normal!important;
+  text-transform: none;
+  color: darkgray !important;
+}
 
 /*.carousel {
     overflow: hidden;
