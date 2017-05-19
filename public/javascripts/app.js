@@ -67,8 +67,8 @@
 
   var albums = [{
     id: 1,
-    nombre: "Crowdfounding",
-    descripcion: "Sesión para crowdfounding",
+    nombre: "Crowdfunding",
+    descripcion: "Sesión para crowdfunding",
     ano: 2016,
     mes: 7,
     ciudad: "Santiago",
