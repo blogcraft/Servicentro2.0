@@ -67,6 +67,24 @@
 
   var albums = [{
     id: 1,
+    nombre: "Crowdfounding",
+    descripcion: "Sesión para crowdfounding",
+    ano: 2016,
+    mes: 7,
+    ciudad: "Santiago",
+    pais: "Chile",
+    fotos: ["01"]
+  }, {
+    id: 2,
+    nombre: "Cristopalooza",
+    descripcion: "Festival Cristopalooza en Villa Alemana",
+    ano: 2016,
+    mes: 5,
+    ciudad: "Villa Alemana",
+    pais: "Chile",
+    fotos: ["01"]
+  }, {
+    id: 3,
     nombre: "Saname",
     descripcion: "Making of... Sáname",
     ano: 2015,
@@ -75,7 +93,7 @@
     pais: "Chile",
     fotos: ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"]
   }, {
-    id: 2,
+    id: 4,
     nombre: "Encuentro",
     descripcion: "Encuentro por la Vida",
     ano: 2015,
@@ -84,7 +102,7 @@
     pais: "Chile",
     fotos: ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"]
   }, {
-    id: 3,
+    id: 5,
     nombre: "HallelTemuco",
     descripcion: "Hallel Temuco",
     ano: 2014,
@@ -93,7 +111,7 @@
     pais: "Chile",
     fotos: ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14"]
   }, {
-    id: 4,
+    id: 6,
     nombre: "Hallel",
     descripcion: "Hallel",
     ano: 2014,
@@ -102,7 +120,7 @@
     pais: "Brasil",
     fotos: ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17"]
   }, {
-    id: 5,
+    id: 7,
     nombre: "Encuentrate",
     descripcion: "Encuéntrate",
     ano: 2012,
