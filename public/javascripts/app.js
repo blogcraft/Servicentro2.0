@@ -27,7 +27,7 @@
         templateUrl: 'partials/contacto.html'
       })
       .otherwise({
-        redirectTo: $routeProvider
+        redirectTo: "/"
       });
     $locationProvider.html5Mode(true);
   });
