@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /m/
+
+User-agent: *
+Disallow: /default.php
